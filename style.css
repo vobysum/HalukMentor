@@ -3,34 +3,34 @@ body {
 	color:#000000;
 }
 
-.biggestbox { 
+.biggest-box { 
 	display: flex;
 	width: 100px;
 	height: 100px;
 	background: red;
 	justify-content: center; /* center / flex-start / flex-end / space-around / space-between */
-    align-items: center;
+    	align-items: center;
 }
 
-.middlebox {
+.middle-box {
 	width: 30px;
 	height: 30px;
 	background-color: red;
 	margin: 10px;
 }
 
-#leftmiddlebox {
+.left-middle-box {
 	background-color: yellow;
 }
 
-#rightmiddlebox {
+.right-middle-box {
 	display: flex;
 	flex-flow: column;
 	justify-content: space-between; /*center / flex-start / flex-end / space-around / space-between */
 	text-align: center;
 }
 
-.smallbox {
+.small-box {
 	width: 30px;
 	height: 10px;
 	background-color: yellow;
